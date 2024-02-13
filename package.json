@@ -1,13 +1,20 @@
 {
-  "name": "frontend-boilerplate-react-nextjs",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "cd app-frontend && npm run dev",
-    "build": "cd app-frontend && npm install && npm run build",
-    "start": "cd app-frontend && npm run start",
-    "test": "cypress run"
-  },
-  "devDependencies": {
-    "cypress": "^9.7.0"
-  }
+	"name": "frontend-boilerplate-react-nextjs",
+	"version": "1.0.0",
+	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d app-frontend/.next",
+		"dev": "cd app-frontend && npm run dev",
+		"build": "cd app-frontend && npm install && npm run build",
+		"start": "cd app-frontend && npm run start",
+		"test": "cypress run",
+		"export": "cd app-frontend && npm run export"
+	},
+	"devDependencies": {
+		"cypress": "^9.7.0"
+	},
+	"dependencies": {
+		"gh-pages": "^6.1.1"
+	},
+	"homepage": "https://ivnteterin.github.io/ticket-ordering"
 }
