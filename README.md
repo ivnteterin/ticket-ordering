@@ -7,4 +7,4 @@ Small practice project for ticket ordering app.
 
 #### Tech
 - ReactJS
-- NextJS
+- NextJS (v12)
