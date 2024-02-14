@@ -14,6 +14,7 @@ export default function Page({ currentStep, formSteps, formData, onSubmit, onRet
 		<div className='flex flex-col items-center justify-center min-h-screen py-2'>
 			<Head>
 				<title>Ticket Order Form</title>
+				<link rel='icon' href='favicon.ico' />
 			</Head>
 
 			<div>
